@@ -6,8 +6,13 @@ export const Container = styled.div`
     margin: 0 auto;
     
     h1{
-
         margin-top: 100px;
         text-transform:uppercase;
+        color: #556FF5;
     }
+
+    p{
+        font-weight: bold;
+    }
+
 `;
