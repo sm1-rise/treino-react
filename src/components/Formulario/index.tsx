@@ -1,17 +1,18 @@
+
 import Button from "../Button";
-import { Container } from "./style";
+import { Container, Form } from "./style";
 
 export default function Formulario() {
     return (
         <>
             <Container>
-                <form>
-                    <label>código de acesso</label>
+                <Form>
+                    <p>código de acesso</p>
                     <input type="text" id="login" name="login-acesso" required />
-                    <label>senha</label>
+                    <p>senha</p>
                     <input type="text" id="senha" name="senha-acesso" required />
-                    <Button />
-                </form>
+                    <Button text="entrar" />
+                </Form>
             </Container>
         </>
     );

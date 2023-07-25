@@ -1,4 +1,3 @@
-import Formulario from "../Formulario";
 import { Container } from "./style";
 
 interface TextoPrincipalProps {
