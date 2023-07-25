@@ -9,10 +9,12 @@ export const Container = styled.div`
         margin-top: 100px;
         text-transform:uppercase;
         color: #556FF5;
+        font-size:47px;
     }
 
     p{
         font-weight: bold;
+        font-size:22px;
     }
 
 `;

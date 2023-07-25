@@ -7,7 +7,7 @@ export const Container = styled.div`
     
     `
 export const Form = styled.form`
-    border: 1px solid gray;
+    border: 1px solid #DCDCDC;
     border-radius: 10px;
     width:410px;
     max-width:100%;
