@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./pages/Login";
+import Services from "./pages/Services"
 
 export default function Routes() {
     const routes = createBrowserRouter([
@@ -7,6 +8,10 @@ export default function Routes() {
             path: "/",
             element: <Login />,
         },
+        {
+            path: "/services",
+            element: <Services />
+        }
     ]);
 
     return <RouterProvider router={routes} />;
